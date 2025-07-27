@@ -60,9 +60,14 @@ Local variable can be defined by _var_ type and Java will resolve it during buil
 ### Arrays
 Simple collection /list/ of defined datatype.
 
-**Declaration:** `int[] nums = {1, 2, 3, 4, 5}` - comma separated elements within curly bracets
+**Declaration with initialization:** `int[] nums = {1, 2, 3, 4, 5}` - comma separated elements within curly brackets,
+or **only declaration:**`String[] names = new String[3];` - empty array with predefined size
 
 `myArray.length` - size of array
+
+Array has to have predefined size during declaration. Java doesn't allow to change size once it is declared.
+_ArrayList_ collection might be used when dynamic array size is needed.
+
 
 
 ## Flow control
