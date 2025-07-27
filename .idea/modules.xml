@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ClassesObjectsMethods/Course/ArrayDemo/ArrayDemo.iml" filepath="$PROJECT_DIR$/ClassesObjectsMethods/Course/ArrayDemo/ArrayDemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClassesObjectsMethods/Course/Business/Business.iml" filepath="$PROJECT_DIR$/ClassesObjectsMethods/Course/Business/Business.iml" />
       <module fileurl="file://$PROJECT_DIR$/CoreJavaTutorial.iml" filepath="$PROJECT_DIR$/CoreJavaTutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClassesObjectsMethods/Course/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/ClassesObjectsMethods/Course/HelloWorld/HelloWorld.iml" />

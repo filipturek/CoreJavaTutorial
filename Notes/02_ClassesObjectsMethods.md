@@ -23,6 +23,13 @@ Top‑level classes can use only two _access modifiers_:
 > A single `.java` source file can declare multiple top‑level classes; however, **only one of them may be declared** `public`.
 > The file name must exactly match the name of that `public` class.
 
+## Methods:
+### _main()_ method:
+`public static void main(String[] args) { ... }`
+Intellij IDE shortcut for that is `psvm`
+Parameter of that method is array of Strings. You can pass any number of arguments while starting application, like running in command line
+`java -cp path/to/build ClassName arg1 arg2 arg3 arg4`
+
 ## Variables:
 Java - statically typed language - it means that datatype has to be always defined for variable.
 
@@ -49,3 +56,17 @@ Java - statically typed language - it means that datatype has to be always defin
 
 ### _var_ datatype
 Local variable can be defined by _var_ type and Java will resolve it during build to correct datatype.
+
+### Arrays
+Simple collection /list/ of defined datatype.
+
+**Declaration:** `int[] nums = {1, 2, 3, 4, 5}` - comma separated elements within curly bracets
+
+`myArray.length` - size of array
+
+
+## Flow control
+
+### Loops
+
+### Conditional statements
