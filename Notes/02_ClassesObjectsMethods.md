@@ -24,13 +24,51 @@ Top‑level classes can use only two _access modifiers_:
 > The file name must exactly match the name of that `public` class.
 
 ## Methods:
+In Java, methods are kind of like functions in other languages, but methods in Java cannot exist without class, as it is object-oriented language.
+
+### Declaration:
+`void sayHello() { ... }` - minimum method declaration has only return type and a name
+
+#### Parameters:
+`void saySomething(String message) { ... }` - _String message_ is a parameter of a method. 
+When that method is called, like `saySomething("Here is my message")` then _"Here is my message"_ is referred as argument of a method.
+
+Method may have 0 or more parameters, of different types, as an input for that method. Parameters are comma-separated.
+
+#### _vararg_ parameters:
+`public void doSomething(String... words) {}` - `String...` enables user to put variable number of arguments to a method, comma separated.
+**Note!** vararg parameter ahs to be a last of parameters in a method.
+
+#### Return type:
+`public char getMiddleInitial() { ... }` - return type is set to `char`.
+If method doesn't return anything, return type is set to `void`. Then method doesn't require statement with `return` keyword.
+If return type is provided, then method always has to have `return` statement.
+
+Method can have only 1 return type.
+
+### Naming convention:
+- camelCase convention
+- has to end with parenthesis, at least empty, followed by curly braces with block of statements
+- should have a verb like _do, get, set, is..._
+- Name can start from letters and (but highly not recommended) `_`, `$` characters
+
+### Access modifiers:
+TODO:
+
+### _Static_ attribute:
+Method which is not bind to an instance of a class (object), but to a class and can be called even if object hasn't been created.
+Static methods can refer only to fields of a class, which are also static.
+
 ### _main()_ method:
 `public static void main(String[] args) { ... }`
-Intellij IDE shortcut for that is `psvm`
+
+Intellij IDE shortcut for that is `psvm`.
+
 Parameter of that method is array of Strings. You can pass any number of arguments while starting application, like running in command line
 `java -cp path/to/build ClassName arg1 arg2 arg3 arg4`
 
 ## Variables:
+
 Java - statically typed language - it means that datatype has to be always defined for variable.
 
 **Variable detatypes:**
@@ -56,6 +94,10 @@ Java - statically typed language - it means that datatype has to be always defin
 
 ### _var_ datatype
 Local variable can be defined by _var_ type and Java will resolve it during build to correct datatype.
+
+### _Static_ attribute:
+Field which is not bind to an instance of a class (object), but to a class.
+
 
 ### Arrays
 Simple collection /list/ of defined datatype.
