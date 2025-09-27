@@ -53,7 +53,10 @@ Method can have only 1 return type.
 - Name can start from letters and (but highly not recommended) `_`, `$` characters
 
 ### Access modifiers:
-TODO:
+- `public` - can be called by any other class
+- `protected` - can be called within a package or by any subclass
+- _package-protected_ -  can be called package or by subclasses from the same package
+- `private` - can be called within a class
 
 ### _Static_ attribute:
 Method which is not bind to an instance of a class (object), but to a class and can be called even if object hasn't been created.
@@ -91,15 +94,20 @@ Java - statically typed language - it means that datatype has to be always defin
 ### Naming convention:
 - camelCase convention for variables
 - UPPERCASE convention for constants (final)
+- 
+### Access modifiers:
+- `public` - can be accessed by any other class
+- `protected` - can be accessed within a package or by any subclass
+- _package-protected_ -  can be accessed package or by subclasses from the same package
+- `private` - can be accessed within a class
 
-### _var_ datatype
+### _var_ datatype:
 Local variable can be defined by _var_ type and Java will resolve it during build to correct datatype.
 
 ### _Static_ attribute:
 Field which is not bind to an instance of a class (object), but to a class.
 
-
-### Arrays
+### Arrays:
 Simple collection /list/ of defined datatype.
 
 **Declaration with initialization:** `int[] nums = {1, 2, 3, 4, 5}` - comma separated elements within curly brackets,
@@ -110,10 +118,9 @@ or **only declaration:**`String[] names = new String[3];` - empty array with pre
 Array has to have predefined size during declaration. Java doesn't allow to change size once it is declared.
 _ArrayList_ collection might be used when dynamic array size is needed.
 
+## Constructors:
 
+Used to initialize object during creation time. If no constructor defined, then default no-args constructor is used.
+We can pass arguments through constructor and overload constructors. If we want to call other constructor within constructor, then we are using `this(...)` syntax.
 
-## Flow control
-
-### Loops
-
-### Conditional statements
+Constructors may have access modifiers same as other class members. Same rules applies.

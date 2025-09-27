@@ -9,3 +9,4 @@
 | `Shift` + `Esc`        | Hides bottom panel (Build etc.)                                                         |
 | `Ctrl` + `Alt` + `V`   | Introduces new local variable for selected bit of code                                  |
 | `Ctrl` + `Alt` + `N`   | Remove local variable and replaces occurrences in a code by whats in its initialization |
+| `Ctrl` + `o`           | Generates code to override methods                                                      |

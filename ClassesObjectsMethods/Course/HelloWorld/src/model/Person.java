@@ -10,6 +10,10 @@ public class Person {
     private Person spouse;
     private Pet pet;
 
+    private Person() {
+
+    }
+
     public Person(String firstName, String lastName, LocalDate dob) {
         this.firstName = firstName;
         this.lastName = lastName;
@@ -65,7 +69,7 @@ public class Person {
     }
 
     @Override
-    public String toString() {
+    public String  toString() {
         return "Person{" +
                 "firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +

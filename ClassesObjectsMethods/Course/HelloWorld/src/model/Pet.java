@@ -14,6 +14,14 @@ public class Pet {
         this.dob = dob;
     }
 
+    protected void protectedMethod() {
+        System.out.println("protected");
+    }
+
+    void packageProtectedMethod() {
+        System.out.println("package-protected");
+    }
+
     public String getName() {
         return name;
     }
