@@ -60,3 +60,13 @@ Therefore, when we create `String anotherCar = "Mercedes"` then `car` and `anoth
 - this searching is case-sensitive
 
 ### Splitting Strings
+- `myString.split(regex)` - splits the string using separator defined by regex
+- `myString.split(regex, limit)` - the same as above but output is limited
+
+### Beginning and ending of Strings
+- `myStirng.startsWith(substring)` - checks if string starts with what is in substring
+- `myStirng.endsWith(substring)` - checks if string ends with what is in substring
+
+### Comparing Strings for Equality
+- `myString.equals(anotherString)` - compare strings for equality (more strict to accept only strings)
+- `myString.contentEquals(anotherString)` - compare strings for equality (accepts also CharSequence and similar)
