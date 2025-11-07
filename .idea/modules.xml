@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/CoreJavaTutorial.iml" filepath="$PROJECT_DIR$/CoreJavaTutorial.iml" />
       <module fileurl="file://$PROJECT_DIR$/ClassesObjectsMethods/Course/HelloWorld/HelloWorld.iml" filepath="$PROJECT_DIR$/ClassesObjectsMethods/Course/HelloWorld/HelloWorld.iml" />
       <module fileurl="file://$PROJECT_DIR$/WorkingWithText/Course/People/People.iml" filepath="$PROJECT_DIR$/WorkingWithText/Course/People/People.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ClassesObjectsMethods/Course/RegexPractice/RegexPractice.iml" filepath="$PROJECT_DIR$/ClassesObjectsMethods/Course/RegexPractice/RegexPractice.iml" />
     </modules>
   </component>
 </project>
