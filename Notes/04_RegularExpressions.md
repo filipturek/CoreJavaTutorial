@@ -16,8 +16,21 @@
 ### Digit character
 `myString.matches("\\d")` - `\d` escape stands for any digit character.
 ### Quantifier
-`myString.matches("\\d{4}")` - `{4}` quantifier tells how many characters should met this criteria
+`myString.matches("\\d{4}")` - `{4}` quantifier tells how many characters should meet this criteria
 ### Space character
-`myString.matches("\\d{3}[-.,\\s]"\\d{3})` - `\s` represents space character
+`myString.matches("\\d{3}[-.,\\s]\\d{3})"` - `\s` represents space character
+### Plus symbol
+`myString.matches("\\d{3}[-.,\\s]+\\d{3})"` - `+` represents one or more quantifier
+### Asterisk symbol
+`myString.matches("\\d{3}[-.,\\s]*\\d{3})"` - `*` represents zero or more quantifier
+### Question mark
+`myString.matches("\\d{3}[-.,\\s]?\\d{3})"` - `?` represents zero or one quantifier
+### Range quantifier
+`myString.matches("\\d{3}[-.,\\s]?\\d{2,4})"` - `{2,4}` represents min and max quantifier (2 to 4)
+`myString.matches("\\d{3}[-.,\\s]?\\d{2,4})"` - `{2,}` represents min limit for quantifier (2 or more)
+### Parenthesis () to group regex
+`myString.matches("(\\d{3}[-.,\\s]?){2}\\d{2,4})"` - `(...){2}` groups pattern and allows to apply quantifier to fine the same sequence more than once
+
+
 
 
